@@ -1,0 +1,13 @@
+.board-square-holder {
+  background-color: blanchedalmond;
+
+  float: left;
+}
+
+table tr:nth-child(odd) td:nth-child(even) {
+  background-color: orangered;
+}
+
+table tr:nth-child(even) td:nth-child(odd) {
+  background-color: orangered;
+}

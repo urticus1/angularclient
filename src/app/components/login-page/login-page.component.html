@@ -1,0 +1,19 @@
+<div class="card my-5">
+  <div class="card-body">
+    <label for="fname">Username:</label>
+    <input #username type="text" id="username" name="username">
+    <br>
+    <br>
+    <label for="password">password:</label>
+    <input #password type="text" id="password" name="password">
+    <br>
+    <br>
+    <button (click)="login()" id="createButton">Log in</button>
+    <br />
+    <br />
+    <br />
+
+    <label for="createButton">Don't have an account?</label>
+    <button (click)="redirect('signUp')" id="createButton">Create Account</button>
+  </div>
+</div>

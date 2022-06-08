@@ -1,0 +1,24 @@
+<div class="card my-5">
+  <div class="card-body">
+    <table class="table table-bordered table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">White</th>
+          <th scope="col">Black</th>
+          <th scope="col">Availbility</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let game of games">
+          <td>{{ game.id }}</td>
+          <td *ngIf="game.playerWhite != null"> {{ game.playerWhite }} </td>
+          <td *ngIf="game.playerWhite == null"> <button (click)="joinGame(game, 'white')">Join</button> </td>
+          <td *ngIf="game.playerBlack != null"> {{ game.playerBlack }} </td>
+          <td *ngIf="game.playerBlack == null"> <button (click)="joinGame(game, 'black')">Join</button> </td>
+          <td><button (click)="redirect(game)">Watch</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

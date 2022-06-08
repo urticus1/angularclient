@@ -1,0 +1,10 @@
+.moveViewerContainer {
+  float: right;
+  background-color: lightgray;
+}
+
+.move-list {
+    width: 90%;
+    height: 70%;
+
+}

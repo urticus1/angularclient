@@ -1,0 +1,16 @@
+<div class="card my-5">
+  <div class="card-body">
+    <input #standard type="radio" id="standard" name="method" value="standard">
+    <label for="standard">Standard</label>
+    <input #custom type="radio" id="custom" name="method" value="custom">
+    <label for="custom">Custom Game</label>
+    <br />
+    <br />
+    <label for="fen">FEN:</label>
+    <input #fen type="text" id="fen" name="fen">
+
+    <br />
+    <br />
+    <button (click)="createGame()">Create Game</button>
+  </div>
+ </div>
