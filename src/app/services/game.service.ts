@@ -25,7 +25,7 @@ export class gameService {
     return this.http.get<Game>(this.gamesUrl + "/game?id=" + id);
   }
 
-  public joinGame(id: string, white: boolean, token: string): Observable<boolean> {
+  public joinGame(id: string, white: boolean, token: string): Observable<any> {
     return this.http.post<boolean>(this.gamesUrl + "/join", { gameId: id, isWhite: white, token: token });
   }
 

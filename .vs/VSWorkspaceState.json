@@ -3,14 +3,13 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\app-routing",
     "\\src\\app\\components",
-    "\\src\\app\\components\\board-square",
-    "\\src\\app\\components\\create-game",
     "\\src\\app\\components\\game-board",
     "\\src\\app\\components\\game-list",
-    "\\src\\model"
+    "\\src\\app\\components\\login-page",
+    "\\src\\app\\components\\signup-page",
+    "\\src\\app\\services"
   ],
-  "SelectedNode": "\\src\\app\\components\\game-board\\game-board.component.ts",
+  "SelectedNode": "\\src\\app\\components\\game-list\\game-list.component.ts",
   "PreviewInSolutionExplorer": false
 }
